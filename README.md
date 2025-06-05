@@ -1,6 +1,6 @@
 # 🤖 AI Learning Assistant
 
-👋 Hi, I'm Mohamed Kamal Elsharkawy. I'm a passionate AI Engineer with experience building intelligent systems that solve real-world problems.  
+👋 Hi, I'm **Mohamed Kamal Elsharkawy** — a passionate AI Engineer with experience building intelligent systems that solve real-world problems.  
 This project is an **AI-powered Learning Assistant** 🧠🎓 designed to enhance the educational experience by offering personalized, interactive learning support.
 
 ---
@@ -8,25 +8,26 @@ This project is an **AI-powered Learning Assistant** 🧠🎓 designed to enhanc
 ## 🎬 Demo
 
 📺 **Watch the demo video** to see the assistant in action:  
-[![AI Learning Assistant Demo](final_video_genai.mp4)
+🎥 [`final_video_genai.mp4`](final_video_genai.mp4)
 
 ---
 
 ## 🛠️ Tools & Technologies Used
 
-- 🐍 **Python** for general development
-- 🔥 **Flask** – as backend framework
-- 🎨 **HTML/CSS/JS** – for front-end design
-- 📓 **Jupyter Notebook** – for experimentation
-- 🤖 **Gemini API** – using gemini-1.5-flash model as a basic LLM
-- 🔍 **Taviliy-Python** - as a searching tool on the internet
-- 🗂️ **Git & GitHub** – for version control
-- 🚀 **Railway Platform** – for deployment 
+- 🐍 **Python** – general development  
+- 🔥 **Flask** – backend web framework  
+- 🎨 **HTML/CSS/JavaScript** – front-end interface  
+- 📓 **Jupyter Notebook** – prototyping and testing  
+- 🤖 **Gemini API** – uses the `gemini-1.5-flash` model as a base LLM  
+- 🔍 **Tavily API** – for internet search capabilities  
+- 🗂️ **Git & GitHub** – version control and collaboration  
+- 🚀 **Railway Platform** – deployment solution  
+
 ---
 
 ## 🤓 Getting Started
 
-### 📝Project Structure
+### 📝 Project Structure
 
 ```plaintext
 AI-Learning-Assistant/
@@ -42,12 +43,22 @@ AI-Learning-Assistant/
 ├── runtime.txt            # Runtime specification (e.g., Python version)
 ```
 
-
 ### ✅ Prerequisites
 
-- 🐍 Python 3.11
-- 📦 pip (Python package installer)
-- 🔑 API keys for Gemini (Google AI) and Tavily
+- 🐍 Python 3.11+
+- 📦 `pip` (Python package installer)
+- 🔑 API keys for:
+  - Gemini (Google AI) → [Get from MakerSuite](https://makersuite.google.com/app)
+  - Tavily → [Get from Tavily](https://www.tavily.com/)
+
+> ⚠️ **Important:** Create a `.env` file in the root directory and add your API keys:
+>
+> ```env
+> GEMINI_API_KEY=your_gemini_api_key_here
+> TAVILY_API_KEY=your_tavily_api_key_here
+> ```
+
+✅ Make sure to **add `.env` to your `.gitignore` file** to keep it private!
 
 ### 📥 Installation
 
@@ -56,18 +67,22 @@ AI-Learning-Assistant/
    ```bash
    git clone https://github.com/mohamedelsharkawy-coder/AI-Learning-Assistant.git
    cd AI-Learning-Assistant
+   ```
 
-2. **Install Packages**
+2. **Install Dependencies**
 
    ```bash
    pip install -r requirements.txt
+   ```
 
-3. **Run Flask APP**
+3. **Run the Flask App**
 
    ```bash
    python app.py
+   ```
 
-```markdown
+---
+
 ## 📬 Contact
 
 Feel free to connect or reach out to me:
@@ -78,6 +93,4 @@ Feel free to connect or reach out to me:
 
 ---
 
-Thank you for checking out this project! If you found it helpful, consider giving it a ⭐️!
-
-
+Thank you for checking out this project! If you found it helpful, consider giving it a ⭐️ to support it!
