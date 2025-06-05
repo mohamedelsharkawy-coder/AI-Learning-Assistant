@@ -40,7 +40,7 @@ AI-Learning-Assistant/
 ├── app.py                 # Main Python script running the Flask web server
 ├── requirements.txt       # Python dependencies required to run the project
 ├── runtime.txt            # Runtime specification (e.g., Python version)
-
+```
 
 
 ### ✅ Prerequisites
