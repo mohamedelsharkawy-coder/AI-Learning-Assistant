@@ -9,14 +9,16 @@ import os
 import json
 import threading
 from datetime import datetime
+from dotenv import load_dotenv
+load_dotenv()
 
 app = Flask(__name__)
 CORS(app)
 
 # Configuration
 class Config:
-    GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "AIzaSyDJF_6G6ahe5l4fAl2dJnigJ9RC8TtjXi0")
-    TAVILY_API_KEY = os.getenv("TAVILY_API_KEY", "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")
+    GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+    TAVILY_API_KEY = os.getenv("TAVILY_API_KEY")
     OUTPUT_DIR = "./ai-agent-output"
     RESULTS_NUM = 5
 
