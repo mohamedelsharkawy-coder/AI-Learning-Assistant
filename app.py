@@ -254,4 +254,8 @@ def download_report(job_id):
         return jsonify({'error': 'Report file not found'}), 404
 
 if __name__ == '__main__':
-    app.run(debug=True, threaded=True)
+    ## for development
+    # app.run(debug=True, threaded=True)
+
+    # for production
+    app.run(host="0.0.0.0", port=5000)
