@@ -89,7 +89,7 @@ Feel free to connect or reach out to me:
 
 - 💻 GitHub: [@mohamedelsharkawy-coder](https://github.com/mohamedelsharkawy-coder)
 - 💼 LinkedIn: [Mohamed Kamal Elsharkawy](https://www.linkedin.com/in/mohamed-elsharkawy-6184b41a7/)
-- 📧 Email: mohamedkamal.eng.ai@gmail.com
+- 📧 Email: mohamed.k.elsharkawy@gmail.com
 
 ---
 
