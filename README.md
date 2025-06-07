@@ -5,6 +5,11 @@ This project is an **AI-powered Learning Assistant** 🧠🎓 designed to enhanc
 
 ---
 
+## 🌐 Try It Online
+
+🚀 **You can try the website from here:**  
+👉 [Website Link](https://ai-learning-assistant-production.up.railway.app/)  
+
 ## 🎬 Demo
 
 📺 **Watch the demo video** to see the assistant in action:  
